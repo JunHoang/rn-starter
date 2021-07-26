@@ -14,21 +14,31 @@ export default function BoxScreen() {
 const styles = StyleSheet.create({
   viewStyle: {
     borderWidth: 3,
-    borderColor: "black",
+    flexDirection: "row",
+    justifyContent: "space-between",
     height: 200,
-    // flexDirection: "row",
   },
   textOneStyle: {
     borderWidth: 3,
+    backgroundColor: "salmon",
     borderColor: "steelblue",
+    height: 100,
+    width: 100,
   },
   textTwoStyle: {
     borderWidth: 3,
+    backgroundColor: "lightgreen",
     borderColor: "steelblue",
-    ...StyleSheet.absoluteFillObject,
+    height: 100,
+    width: 100,
+    // top: 100, // case 1
+    alignSelf: "flex-end", //case 2
   },
   textThreeStyle: {
     borderWidth: 3,
+    backgroundColor: "violet",
     borderColor: "steelblue",
+    height: 100,
+    width: 100,
   },
 });
