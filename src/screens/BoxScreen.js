@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   textTwoStyle: {
     borderWidth: 3,
     borderColor: "steelblue",
-    alignSelf: "flex-end",
+    position: "absolute",
   },
   textThreeStyle: {
     borderWidth: 3,
